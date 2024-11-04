@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 20px; /* Afegeix un padding general al cos */
+  line-height: 1.6;
+  text-align: center; /* Centra tot el text */
+}
+
+h1,
+h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+p {
+  margin: 20px auto; /* Centra el paràgraf */
+  max-width: 800px; /* Afegeix un màxim d'amplada per millorar llegibilitat */
+  text-align: justify;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+ul li a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Image Styles */
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 30%;
+  height: auto;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+
+/* Table Styles */
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: hsl(0, 0%, 100%);
+  color: #000;
+}
+
+td img {
+  border: none;
+}
+
+/* Iframe Styles */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid hsl(0, 0%, 100%);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  ul li {
+    display: block; /* Canvi a bloc per apilar verticalment */
+    margin: 5px 0; /* Afegir espai vertical */
+  }
+
+  table {
+    width: 100%; /* Fer la taula de ple ample */
+  }
+
+  img {
+    max-width: 100%; /* Assegura que les imatges s'ajustin dins el seu contenidor */
+    height: auto; /* Manté l'aspecte */
+  }
+
+  p {
+    margin: 10px auto; /* Reduir marges per a pantalles petites */
+  }
+}
+/* Estils per a les imatges */
+.fotografies-container {
+  display: flex; /* Utilitzar flexbox */
+  flex-wrap: wrap; /* Permetre que les imatges es moguin a la següent línia si no hi ha espai */
+  justify-content: center; /* Centrar les imatges horitzontalment */
+  margin: 20px auto; /* Margen automàtic per centrar el contenidor */
+}
+
+.fotografies-container img {
+  max-width: 30%; /* Ajustar la mida de les imatges */
+  height: auto; /* Mantenir l'aspecte */
+  margin: 10px; /* Afegir espai entre imatges */
+}
+#cinemes {
+  text-align: center; /* Centra el text de la secció */
+  margin-bottom: 40px; /* Espai addicional a sota de la secció */
+}
+
+#cinemes ol {
+  list-style-type: none; /* Eliminar els punters de la llista */
+  padding: 0; /* Eliminar el padding per defecte */
+}
+
+#cinemes > ol > li {
+  margin: 30px 0; /* Espai entre les comunitats */
+  font-size: 1.5em; /* Augmentar la mida de la font */
+  text-align: left; /* Alinear el text a l'esquerra */
+}
+
+#cinemes ol ol {
+  list-style-type: none; /* Eliminar punters a les subllistes */
+  padding: 0; /* Eliminar padding per defecte */
+  margin-left: 20px; /* Espai a l'esquerra per a la subllista */
+  margin-top: 10px; /* Espai entre el nom de la comunitat i la seva subllista */
+}
+
+#cinemes ol ol li {
+  margin: 5px 0; /* Espai entre els enllaços dels cinemes */
+}
+
+#cinemes a {
+  color: hsl(0, 0%, 100%); /* Color dels enllaços */
+  text-decoration: none; /* Eliminem el subratllat */
+}
+
+#cinemes a:hover {
+  text-decoration: underline; /* Afegir subratllat al passar el cursor */
+}
+#cinemes .centrat {
+  text-align: center; /* Centra el text */
+}
