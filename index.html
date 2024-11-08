@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html lang="cat">
+<html lang="ca">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enllaç a l'estil extern on es defineixen els estils visuals de la pàgina -->
     <title>REDLINE</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Títol principal de la pàgina amb ID per navegar amb enllaços d'ancoratge -->
+
     <h1 id="inici">REDLINE</h1>
+
+    <!-- Menú de navegació principal amb enllaços a diferents seccions de la pàgina -->
 
     <nav>
       <ul>
@@ -21,6 +26,7 @@
       </ul>
     </nav>
 
+    <!-- Presentació general de la pel·lícula i informació addicional -->
     <h2 id="presentacio">Benvingut a la pàgina de REDLINE!</h2>
     <p>
       Aquesta és la pàgina d'inici de REDLINE. Aquí trobaràs informació sobre
@@ -28,6 +34,7 @@
     </p>
     <p>
       REDLINE és una pel·lícula d'animació japonesa produïda per
+      <!-- Enllaç extern a la Wikipedia per informació addicional de l'estudi -->
       <a
         href="https://es.wikipedia.org/wiki/Madhouse_(animaci%C3%B3n)"
         target="_blank"
@@ -38,6 +45,8 @@
       vibrant, REDLINE és una experiència visual i auditiva única que ha
       captivat els fans de l'animació arreu del món.
     </p>
+
+    <!-- Llistat dels personatges principals amb enllaços d'ancoratge a les seves descripcions -->
     <h2 id="personatges">Personatges principals:</h2>
     <ul>
       <li><a href="#jp">JP</a></li>
@@ -51,8 +60,9 @@
       <li><a href="#gori">Gori-Rider</a></li>
     </ul>
 
-    <!-- Personatges -->
+    <!-- Secció de cada personatge amb una imatge i descripció -->
     <h2 id="jp">JP</h2>
+    <!-- Enllaç a una imatge del personatge JP emmagatzemada en un servei d'allotjament que he creat jo (amb Google Firebase)-->
     <img
       src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/Personatges%2Fjp.jpg?alt=media&token=52cfc505-09e3-4508-8573-e3ca637e7817"
       alt="JP"
@@ -67,6 +77,7 @@
       inspirador.
     </p>
 
+    <!-- Repetició de la mateixa estructura per a altres personatges -->
     <h2 id="frisbee">Frisbee</h2>
     <img
       src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/Personatges%2Ffrisbee.jpg?alt=media&token=c44e8f2c-5c88-4f58-a952-3e9019105ca5"
@@ -180,8 +191,8 @@
       pilot el fa un rival a tenir en compte.
     </p>
 
-    <!-- Taula de cotxes -->
-    <table border="1">
+    <!-- Taula amb informació sobre els cotxes de cada personatge -->
+    <table>
       <tr>
         <th>Personatge</th>
         <th>Equip</th>
@@ -189,6 +200,7 @@
       </tr>
       <tr>
         <td>JP</td>
+        <!-- rowspan fa que la cel·la d'equip abasti tres files per evitar repetició -->
         <td rowspan="3">JP's Team</td>
         <td rowspan="3">
           <img
@@ -214,6 +226,7 @@
         </td>
       </tr>
       <tr>
+        <!-- Se segueix la mateixa estructura per als altres equips i els seus vehicles -->
         <td>Machinehead</td>
         <td>Machinehead's Team</td>
         <td>
@@ -277,23 +290,28 @@
     </table>
 
     <section id="fotografies">
+      <!-- Títol principal de la secció per a mostrar les fotografies dels personatges -->
       <h2>Fotografies dels Personatges</h2>
 
+      <!-- Subtítol amb un índex per facilitar la navegació interna a cada personatge -->
       <h3>Índex de Personatges</h3>
       <ul>
+        <!-- Enllaços per anar directament a les fotos dels diferents personatges -->
         <li><a href="#jp1">JP</a></li>
         <li><a href="#frisbee2">Frisbee</a></li>
         <li><a href="#sonoshee3">Sonoshee</a></li>
         <li><a href="#machinehead4">Machinehead</a></li>
       </ul>
-
+      <!-- Bloc dedicat a les fotografies del personatge JP -->
       <div id="jp1">
         <h3>JP</h3>
         <div class="fotografies-container">
+          <!-- Contenidor de les fotografies per al personatge JP -->
           <img
             src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ConceptArt%2FJP%2FArt%2Bof%2BRedline%2B-%2BA%2B%2B3.png?alt=media&token=728e5122-ce5c-4c8b-a504-df2a6bf51c5b"
             alt="JP Foto 1"
           />
+          <!-- Repetició d’imatges per oferir diferents perspectives o escenes de JP -->
           <img
             src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ConceptArt%2FJP%2FArt%2Bof%2BRedline%2B-%2BA%2B%2B4.png?alt=media&token=583f8a5a-7672-442a-adc2-3fc231f40fe9"
             alt="JP Foto 2"
@@ -305,9 +323,11 @@
         </div>
       </div>
 
+      <!-- Bloc dedicat a les fotografies del personatge Frisbee -->
       <div id="frisbee2">
         <h3>Frisbee</h3>
         <div class="fotografies-container">
+          <!-- Tres imatges del Frisbee amb un atribut alt descriptiu -->
           <img
             src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ConceptArt%2FFRISBEE%2FArt%2Bof%2BRedline%2B-%2BB%2B%2B39.png?alt=media&token=9c822a9f-0741-4e47-96df-bfe08bf84b87"
             alt="Frisbee Foto 1"
@@ -323,8 +343,11 @@
         </div>
       </div>
 
+      <!-- Bloc dedicat a les fotografies del personatge Sonoshee -->
       <div id="sonoshee3">
         <h3>Sonoshee</h3>
+
+        <!-- Tres imatges de Sonoshee amb descripcions en els atributs alt -->
         <div class="fotografies-container">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ConceptArt%2FSONOSHEE%2FArt%2Bof%2BRedline%2B-%2BA%2B%2B7.png?alt=media&token=516b7493-9795-4af0-93f9-90ba13ab1476"
@@ -341,8 +364,10 @@
         </div>
       </div>
 
+      <!-- Bloc dedicat a les fotografies del personatge Machinehead -->
       <div id="machinehead4">
         <h3>Machinehead</h3>
+        <!-- Dues imatges de Machinehead amb descripcions alternatives -->
         <div class="fotografies-container">
           <img
             src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ConceptArt%2FMACHINEHEAD%2FArt%2Bof%2BRedline%2B-%2BB%2B%2B20.png?alt=media&token=037db89a-6213-4515-a8f9-79d0323fc7f3"
@@ -356,7 +381,10 @@
       </div>
     </section>
 
+    <!-- Aquesta secció mostra el títol del tràiler de la pel·lícula REDLINE. -->
     <h2>Tràiler de REDLINE</h2>
+
+    <!-- Aquest codi iframe s'utilitza per incrustar el vídeo del tràiler de REDLINE de YouTube en la pàgina web. Permet als usuaris veure el tràiler directament sense sortir de la pàgina. -->
     <iframe
       width="702"
       height="395"
@@ -368,266 +396,284 @@
       allowfullscreen
     ></iframe>
 
-    <h2 id="actors">Actors de veu</h2>
+    <!-- Títol per a la secció d'actors de veu. L'atribut 'id' s'utilitza per a la navegació de l'usuari, permetent l'enllaç a seccions específiques més endavant. -->
 
-    <!-- Índex amb enllaços per a cada personatge i actors -->
-    <ul>
-      <li>
-        JP
-        <ul>
-          <li><a href="#jp-english">Patrick Seitz (Anglès)</a></li>
-          <li><a href="#jp-japanese">Takuya Kimura (Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Frisbee
-        <ul>
-          <li><a href="#frisbee-english">Liam O'Brien (Anglès)</a></li>
-          <li><a href="#frisbee-japanese">Tadanobu Asano (Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Sonoshee
-        <ul>
-          <li><a href="#sonoshee-english">Michelle Ruff (Anglès)</a></li>
-          <li><a href="#sonoshee-japanese">Yuu Aoi (Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Machinehead
-        <ul>
-          <li><a href="#machinehead-english">Jamieson Price (Anglès)</a></li>
-          <li><a href="#machinehead-japanese">Kouji Ishii (Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Little Deyzuna
-        <ul>
-          <li>
-            <a href="#little-deyzuna-english">Michael Sinterniklaas (Anglès)</a>
-          </li>
-          <li><a href="#little-deyzuna-japanese">Kenta Miyake (Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Trava
-        <ul>
-          <li><a href="#trava-english">Peter Cullen (Anglès)</a></li>
-          <li><a href="#trava-japanese">Kanji Tsuda (Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Shinkai
-        <ul>
-          <li><a href="#shinkai-english">Steve Blum (Anglès)</a></li>
-          <li><a href="#shinkai-japanese">Yoshiyuki Morisihita(Japonès)</a></li>
-        </ul>
-      </li>
-      <li>
-        Lynchman
-        <ul>
-          <li><a href="#igor-english">Doug Stone (Anglès)</a></li>
-          <li><a href="#igor-japanese">Tatsuya Gashuin (Japonès)</a></li>
-        </ul>
-      </li>
-    </ul>
+    <section id="actorsVeu">
+      <h2 id="actors">Actors de veu</h2>
 
-    <ol>
-      <li id="jp-english">
-        <h3>JP</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fjp.jpg?alt=media&token=c493ac2e-54b1-417b-8a86-57327d5037dd"
-          alt="Patrick Seitz"
-        />
-        <p>
-          Patrick Seitz - Conegut pels seus papers a "Bleach" com Kenpachi
-          Zaraki i "Naruto" com Franky. També ha donat veu a personatges de "One
-          Piece" i "My Hero Academia".
-        </p>
-      </li>
-      <li id="jp-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FJPJP.jpg?alt=media&token=b34b686d-cb89-4dd4-9c85-e139bffd432f"
-          alt="Kenta Miyake"
-        />
-        <p>
-          Takuya Kimura - Conegut pel seu paper com a Howl en el Castell
-          Ambulant.
-        </p>
-      </li>
+      <!-- Índex amb enllaços per a cada personatge i actors -->
+      <ul>
+        <!-- Llista no ordenada que conté enllaços a les seccions de cada personatge amb els seus respectius actors de veu.
+       Aquesta llista d'enllaços permet als usuaris navegar fàcilment per la pàgina i veure informació sobre cada actor de veu per a cada personatge, amb enllaços que condueixen a les seccions corresponents més endavant a la pàgina. -->
 
-      <li id="frisbee-english">
-        <h3>Frisbee</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Ffrisbee.png?alt=media&token=f3f61087-48b3-48d9-9dc9-bc8755bc0487"
-          alt="Liam O'Brien"
-        />
-        <p>
-          Liam O'Brien - Famos pel seu treball a "Critical Role" com a dungeon
-          master i "Naruto" com Gaara. També ha treballat a "Star Wars: The
-          Clone Wars" i "Persona 3".
-        </p>
-      </li>
-      <li id="frisbee-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FfrisbeeJP.jpg?alt=media&token=f7d89e2c-21df-44b5-b787-60c3c7f5b47b"
-          alt="Akira Ishida"
-        />
-        <p>
-          Tadanobu Asano - El seu únic treball en el mon del doblatge ha estat
-          interpretant al Fresbee. Es conegut per ser un dels actors amb el que
-          més ha treballat el director Takeshi Kitano.
-        </p>
-      </li>
+        <li>
+          JP
+          <ul>
+            <li><a href="#jp-english">Patrick Seitz (Anglès)</a></li>
+            <li><a href="#jp-japanese">Takuya Kimura (Japonès)</a></li>
+          </ul>
+        </li>
+        <li>
+          Frisbee
+          <ul>
+            <li><a href="#frisbee-english">Liam O'Brien (Anglès)</a></li>
+            <li><a href="#frisbee-japanese">Tadanobu Asano (Japonès)</a></li>
+          </ul>
+        </li>
+        <li>
+          Sonoshee
+          <ul>
+            <li><a href="#sonoshee-english">Michelle Ruff (Anglès)</a></li>
+            <li><a href="#sonoshee-japanese">Yuu Aoi (Japonès)</a></li>
+          </ul>
+        </li>
+        <li>
+          Machinehead
+          <ul>
+            <li><a href="#machinehead-english">Jamieson Price (Anglès)</a></li>
+            <li><a href="#machinehead-japanese">Kouji Ishii (Japonès)</a></li>
+          </ul>
+        </li>
+        <li>
+          Little Deyzuna
+          <ul>
+            <li>
+              <a href="#little-deyzuna-english"
+                >Michael Sinterniklaas (Anglès)</a
+              >
+            </li>
+            <li>
+              <a href="#little-deyzuna-japanese">Kenta Miyake (Japonès)</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Trava
+          <ul>
+            <li><a href="#trava-english">Peter Cullen (Anglès)</a></li>
+            <li><a href="#trava-japanese">Kanji Tsuda (Japonès)</a></li>
+          </ul>
+        </li>
+        <li>
+          Shinkai
+          <ul>
+            <li><a href="#shinkai-english">Steve Blum (Anglès)</a></li>
+            <li>
+              <a href="#shinkai-japanese">Yoshiyuki Morisihita(Japonès)</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Lynchman
+          <ul>
+            <li><a href="#igor-english">Doug Stone (Anglès)</a></li>
+            <li><a href="#igor-japanese">Tatsuya Gashuin (Japonès)</a></li>
+          </ul>
+        </li>
+      </ul>
 
-      <li id="sonoshee-english">
-        <h3>Sonoshee</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fmachinehead.jpg?alt=media&token=da2b97cf-ced0-42e9-baba-5f88f5af8cb8"
-          alt="Michelle Ruff"
-        />
-        <p>
-          Michelle Ruff - Coneguda per donar veu a Rukia Kuchiki a "Bleach" i
-          Sinon a "Sword Art Online". També ha participat a "Digimon" i "Gurren
-          Lagann".
-        </p>
-      </li>
-      <li id="sonoshee-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FsonosheeJP.jpg?alt=media&token=02292a8c-fa86-4d73-8626-82e2e1337d7c"
-          alt="Fumiko Orikasa"
-        />
-        <p>
-          Yuu Aoi - És una actriu que ha aparegut en molts programes de la
-          televisió japonesa. El seu debut com a actriu de veu va ser amb el
-          paper de White en Tekkon Kinktreet.
-        </p>
-      </li>
+      <ol>
+        <li id="jp-english">
+          <h3>JP</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fjp.jpg?alt=media&token=c493ac2e-54b1-417b-8a86-57327d5037dd"
+            alt="Patrick Seitz"
+          />
+          <p>
+            Patrick Seitz - Conegut pels seus papers a "Bleach" com Kenpachi
+            Zaraki i "Naruto" com Franky. També ha donat veu a personatges de
+            "One Piece" i "My Hero Academia".
+          </p>
+        </li>
+        <li id="jp-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FJPJP.jpg?alt=media&token=b34b686d-cb89-4dd4-9c85-e139bffd432f"
+            alt="Kenta Miyake"
+          />
+          <p>
+            Takuya Kimura - Conegut pel seu paper com a Howl en el Castell
+            Ambulant.
+          </p>
+        </li>
 
-      <li id="machinehead-english">
-        <h3>Machinehead</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fdeyzuna.jpg?alt=media&token=8665a7f4-30bc-42fb-a359-1a3d65dbe023"
-          alt="Jamieson Price"
-        />
-        <p>
-          Jamieson Price - Reconegut per treballs a "Akira" com Tetsuo i a
-          "Street Fighter" com E. Honda. També ha treballat a "Final Fantasy" i
-          "Mortal Kombat".
-        </p>
-      </li>
-      <li id="machinehead-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FmachineheadJP.jpg?alt=media&token=c997c182-d900-4a2b-9370-e6c9b3c28ba9"
-          alt="Unshō Ishizuka"
-        />
-        <p>
-          Kouji Ishii - Conegut per donar veu a personatges en diverses sèries
-          com la Kagura a Gintama.
-        </p>
-      </li>
+        <li id="frisbee-english">
+          <h3>Frisbee</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Ffrisbee.png?alt=media&token=f3f61087-48b3-48d9-9dc9-bc8755bc0487"
+            alt="Liam O'Brien"
+          />
+          <p>
+            Liam O'Brien - Famos pel seu treball a "Critical Role" com a dungeon
+            master i "Naruto" com Gaara. També ha treballat a "Star Wars: The
+            Clone Wars" i "Persona 3".
+          </p>
+        </li>
+        <li id="frisbee-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FfrisbeeJP.jpg?alt=media&token=f7d89e2c-21df-44b5-b787-60c3c7f5b47b"
+            alt="Akira Ishida"
+          />
+          <p>
+            Tadanobu Asano - El seu únic treball en el mon del doblatge ha estat
+            interpretant al Fresbee. Es conegut per ser un dels actors amb el
+            que més ha treballat el director Takeshi Kitano.
+          </p>
+        </li>
 
-      <li id="little-deyzuna-english">
-        <h3>Little Deyzuna</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fdayzuna.png?alt=media&token=1ebd624d-3d69-4650-bb34-9948f5a9ecd2"
-          alt="Michael Sinterniklaas"
-        />
-        <p>
-          Michael Sinterniklaas - Conegut pels seus papers a "Teenage Mutant
-          Ninja Turtles" com Leonardo i a "Your Name" com Taki Tachibana. També
-          ha treballat a "One Piece" i "JoJo's Bizarre Adventure".
-        </p>
-      </li>
-      <li id="little-deyzuna-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FlynchmanJP.jpg?alt=media&token=b3739913-06b4-4b18-a228-00f9a47ae67c"
-          alt="Ryōhei Kimura"
-        />
-        <p>
-          Kenta Miyake - Conegut per ser la veu de All Might en My Hero Academia
-          o de Jack Hanma en Baki.
-        </p>
-      </li>
+        <li id="sonoshee-english">
+          <h3>Sonoshee</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fmachinehead.jpg?alt=media&token=da2b97cf-ced0-42e9-baba-5f88f5af8cb8"
+            alt="Michelle Ruff"
+          />
+          <p>
+            Michelle Ruff - Coneguda per donar veu a Rukia Kuchiki a "Bleach" i
+            Sinon a "Sword Art Online". També ha participat a "Digimon" i
+            "Gurren Lagann".
+          </p>
+        </li>
+        <li id="sonoshee-japanese">
+          <h4>Japonès</h4>
+          <img
+            class="sonosheeimg"
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FsonosheeJP.jpg?alt=media&token=02292a8c-fa86-4d73-8626-82e2e1337d7c"
+            alt="Fumiko Orikasa"
+          />
+          <p>
+            Yuu Aoi - És una actriu que ha aparegut en molts programes de la
+            televisió japonesa. El seu debut com a actriu de veu va ser amb el
+            paper de White en Tekkon Kinktreet.
+          </p>
+        </li>
 
-      <li id="trava-english">
-        <h3>Trava</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Ftrava.jpg?alt=media&token=ae70a0aa-53d8-4bfa-8e71-deb26e973f42"
-          alt="Peter Cullen"
-        />
-        <p>
-          Peter Cullen - Famos pel seu treball donant veu a Optimus Prime a
-          "Transformers". També ha treballat a "Winnie the Pooh" com Eeyore i a
-          "The Predator" com el Predator.
-        </p>
-      </li>
-      <li id="trava-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FtravaJP.jpg?alt=media&token=a0067052-6265-4d33-b57c-8cbcb906e5af"
-          alt="Tesshō Genda"
-        />
-        <p>
-          Kanji Tsuda - Conegut per ser la veu del narrador en el programa
-          japonés Yami Shibai.
-        </p>
-      </li>
+        <li id="machinehead-english">
+          <h3>Machinehead</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fdeyzuna.jpg?alt=media&token=8665a7f4-30bc-42fb-a359-1a3d65dbe023"
+            alt="Jamieson Price"
+          />
+          <p>
+            Jamieson Price - Reconegut per treballs a "Akira" com Tetsuo i a
+            "Street Fighter" com E. Honda. També ha treballat a "Final Fantasy"
+            i "Mortal Kombat".
+          </p>
+        </li>
+        <li id="machinehead-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FmachineheadJP.jpg?alt=media&token=c997c182-d900-4a2b-9370-e6c9b3c28ba9"
+            alt="Unshō Ishizuka"
+          />
+          <p>
+            Kouji Ishii - Conegut per donar veu a personatges en diverses sèries
+            com la Kagura a Gintama.
+          </p>
+        </li>
 
-      <li id="shinkai-english">
-        <h3>Shinkai</h3>
-        <h4>Anglès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fshinkai.jpg?alt=media&token=dc8421d9-722d-4375-bad6-828834c33e20"
-          alt="Steve Blum"
-        />
-        <p>
-          Steve Blum - Conegut pels seus papers a "Cowboy Bebop" com Spike
-          Spiegel i "Naruto" com Orochimaru. També ha treballat a "Star Wars
-          Rebels" i "Transformers: Prime".
-        </p>
-      </li>
-      <li id="shinkai-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FshinkaiJP.jpg?alt=media&token=124cee8f-a427-4f05-834f-512cb5c2410a"
-          alt="Kōichi Yamadera"
-        />
-        <p>
-          Yoshiyuki Morisihita - Ha participat en algunes pelicules de Hollywood
-          y japoneses, però no ha protagonitzat mai cap paper principal.
-        </p>
-      </li>
-      <li id="igor-japanese">
-        <h4>Japonès</h4>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FlynchmanJP.jpg?alt=media&token=b3739913-06b4-4b18-a228-00f9a47ae67c"
-          alt="Mitsuo Iwata"
-        />
-        <p>
-          Tatsuya Gashuin - Personalitat molt afiliada amb l'estudi d'animació
-          Studio Ghibli degut a les seves aparicions interpretant personatges en
-          els seus films.".
-        </p>
-      </li>
-    </ol>
+        <li id="little-deyzuna-english">
+          <h3>Little Deyzuna</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fdayzuna.png?alt=media&token=1ebd624d-3d69-4650-bb34-9948f5a9ecd2"
+            alt="Michael Sinterniklaas"
+          />
+          <p>
+            Michael Sinterniklaas - Conegut pels seus papers a "Teenage Mutant
+            Ninja Turtles" com Leonardo i a "Your Name" com Taki Tachibana.
+            També ha treballat a "One Piece" i "JoJo's Bizarre Adventure".
+          </p>
+        </li>
+        <li id="little-deyzuna-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FlynchmanJP.jpg?alt=media&token=b3739913-06b4-4b18-a228-00f9a47ae67c"
+            alt="Ryōhei Kimura"
+          />
+          <p>
+            Kenta Miyake - Conegut per ser la veu de All Might en My Hero
+            Academia o de Jack Hanma en Baki.
+          </p>
+        </li>
+
+        <li id="trava-english">
+          <h3>Trava</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Ftrava.jpg?alt=media&token=ae70a0aa-53d8-4bfa-8e71-deb26e973f42"
+            alt="Peter Cullen"
+          />
+          <p>
+            Peter Cullen - Famos pel seu treball donant veu a Optimus Prime a
+            "Transformers". També ha treballat a "Winnie the Pooh" com Eeyore i
+            a "The Predator" com el Predator.
+          </p>
+        </li>
+        <li id="trava-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FtravaJP.jpg?alt=media&token=a0067052-6265-4d33-b57c-8cbcb906e5af"
+            alt="Tesshō Genda"
+          />
+          <p>
+            Kanji Tsuda - Conegut per ser la veu del narrador en el programa
+            japonés Yami Shibai.
+          </p>
+        </li>
+
+        <li id="shinkai-english">
+          <h3>Shinkai</h3>
+          <h4>Anglès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorsVeu%2Fshinkai.jpg?alt=media&token=dc8421d9-722d-4375-bad6-828834c33e20"
+            alt="Steve Blum"
+          />
+          <p>
+            Steve Blum - Conegut pels seus papers a "Cowboy Bebop" com Spike
+            Spiegel i "Naruto" com Orochimaru. També ha treballat a "Star Wars
+            Rebels" i "Transformers: Prime".
+          </p>
+        </li>
+        <li id="shinkai-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FshinkaiJP.jpg?alt=media&token=124cee8f-a427-4f05-834f-512cb5c2410a"
+            alt="Kōichi Yamadera"
+          />
+          <p>
+            Yoshiyuki Morisihita - Ha participat en algunes pelicules de
+            Hollywood y japoneses, però no ha protagonitzat mai cap paper
+            principal.
+          </p>
+        </li>
+        <li id="igor-japanese">
+          <h4>Japonès</h4>
+          <img
+            src="https://firebasestorage.googleapis.com/v0/b/mp4uf1pt4webcinema.appspot.com/o/ActorDeVeuJP%2FlynchmanJP.jpg?alt=media&token=b3739913-06b4-4b18-a228-00f9a47ae67c"
+            alt="Mitsuo Iwata"
+          />
+          <p>
+            Tatsuya Gashuin - Personalitat molt afiliada amb l'estudi d'animació
+            Studio Ghibli degut a les seves aparicions interpretant personatges
+            en els seus films.".
+          </p>
+        </li>
+      </ol>
+    </section>
     <section id="cinemes">
+      <!-- Secció per mostrar una llista de cinemes disponibles per veure REDLINE a diferents regions d'Espanya. -->
       <h2>Llista de Cinemes disponibles</h2>
       <ol>
+        <!-- Llista ordenada dels cinemes per regions. -->
         <li class="centrat">
           CATALUNYA
           <ol>
+            <!-- Llista de cinemes a Catalunya amb enllaços als seus llocs webs. -->
             <li>
               <a href="https://www.cinesa.es/cines/diagonal/"
                 >Cinesa Diagonal</a
@@ -644,6 +690,7 @@
             </li>
           </ol>
         </li>
+        <!-- Llista de cinemes a la Comunitat de Madrid amb els seus respectius enllaços. -->
         <li class="centrat">
           COMUNITAT DE MADRID
           <ol>
@@ -658,8 +705,9 @@
             </li>
           </ol>
         </li>
+        <!-- Llista de cinemes al País Basc amb enllaços. -->
         <li class="centrat">
-          PAÍS VASC
+          PAÍS BASC
           <ol>
             <li>
               <a href="https://golem.es/golem/golem-alhondiga"
@@ -673,6 +721,7 @@
             </li>
           </ol>
         </li>
+        <!-- Llista de cinemes a Galícia amb enllaços. -->
         <li class="centrat">
           GALÍCIA
           <ol>
@@ -689,10 +738,11 @@
       </ol>
     </section>
 
+    <!-- Secció per permetre als usuaris deixar les seves opinions sobre la pel·lícula REDLINE. -->
     <section id="opinio">
       <h2>Opinió</h2>
       <h2>Deixa la teva opinió sobre REDLINE</h2>
-
+      <!-- Formulari perquè els usuaris puguin deixar la seva opinió personal, la valoració i altres detalls com el nom i correu electrònic. -->
       <form action="#" method="post">
         <label for="nom">Nom:</label><br />
         <input type="text" id="nom" name="nom" required /><br /><br />

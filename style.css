@@ -1,7 +1,6 @@
-/* General Styles */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; /* Utilitza una font sans-serif com a tipus de lletra per defecte */
   background-color: #000;
   color: #fff;
   margin: 0;
@@ -18,7 +17,7 @@ h2 {
 
 h1 {
   font-size: 3em;
-  margin-top: 20px;
+  margin-top: 20px; /* Afegeix un marge superior per separar el títol dels altres elements */
 }
 
 h2 {
@@ -46,14 +45,13 @@ ul li {
 
 ul li a {
   color: hsl(0, 0%, 100%);
-  text-decoration: none;
+  text-decoration: none; /* Elimina el subratllat dels enllaços */
 }
 
 ul li a:hover {
-  text-decoration: underline;
+  text-decoration: underline; /* Subratllat al passar el cursor */
 }
-
-/* Image Styles */
+/* Estil de les imatges */
 img {
   display: block;
   margin: 20px auto;
@@ -62,11 +60,11 @@ img {
   border: 2px solid hsl(0, 0%, 100%);
 }
 
-/* Table Styles */
+/* Estil de la taula */
 table {
   width: 80%;
   margin: 20px auto;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Fusiona les cel·les de la taula */
 }
 
 table,
@@ -74,30 +72,30 @@ th,
 td {
   border: 1px solid hsl(0, 0%, 100%);
 }
-
+/* Espaiat i alineació del text dins de les cel·les */
 th,
 td {
   padding: 10px;
   text-align: center;
 }
-
+/* Estil de les cel·les de la taula */
 th {
   background-color: hsl(0, 0%, 100%);
   color: #000;
 }
-
+/* Elimina el contorn de les imatges dins de les cel·les de la taula */
 td img {
   border: none;
 }
 
-/* Iframe Styles */
+/* Estil del vídeo del trailer de REDLINE */
 iframe {
   display: block;
   margin: 20px auto;
   border: 2px solid hsl(0, 0%, 100%);
 }
 
-/* Responsive Styles */
+/* He intentat que la web sigui responsive */
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5em;
@@ -125,7 +123,7 @@ iframe {
     margin: 10px auto; /* Reduir marges per a pantalles petites */
   }
 }
-/* Estils per a les imatges */
+/* Contenidors per les fotografies */
 .fotografies-container {
   display: flex; /* Utilitzar flexbox */
   flex-wrap: wrap; /* Permetre que les imatges es moguin a la següent línia si no hi ha espai */
@@ -146,33 +144,4 @@ iframe {
 #cinemes ol {
   list-style-type: none; /* Eliminar els punters de la llista */
   padding: 0; /* Eliminar el padding per defecte */
-}
-
-#cinemes > ol > li {
-  margin: 30px 0; /* Espai entre les comunitats */
-  font-size: 1.5em; /* Augmentar la mida de la font */
-  text-align: left; /* Alinear el text a l'esquerra */
-}
-
-#cinemes ol ol {
-  list-style-type: none; /* Eliminar punters a les subllistes */
-  padding: 0; /* Eliminar padding per defecte */
-  margin-left: 20px; /* Espai a l'esquerra per a la subllista */
-  margin-top: 10px; /* Espai entre el nom de la comunitat i la seva subllista */
-}
-
-#cinemes ol ol li {
-  margin: 5px 0; /* Espai entre els enllaços dels cinemes */
-}
-
-#cinemes a {
-  color: hsl(0, 0%, 100%); /* Color dels enllaços */
-  text-decoration: none; /* Eliminem el subratllat */
-}
-
-#cinemes a:hover {
-  text-decoration: underline; /* Afegir subratllat al passar el cursor */
-}
-#cinemes .centrat {
-  text-align: center; /* Centra el text */
 }
