@@ -145,3 +145,11 @@ iframe {
   list-style-type: none; /* Eliminar els punters de la llista */
   padding: 0; /* Eliminar el padding per defecte */
 }
+iframe {
+  width: 100%;
+  max-width: 702px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: 20px auto;
+  border: 2px solid hsl(0, 0%, 100%);
+}
